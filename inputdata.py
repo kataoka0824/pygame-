@@ -20,7 +20,7 @@ def main():
 	bl_d=0
 	state_bl=[]
 	b_state="r"
-	f_name="gamedata1.csv"
+	f_name="data.csv"
 	for i in range(50):
 		bl_j.append(0)
 	pygame.init()       # pygame初期化
