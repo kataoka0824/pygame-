@@ -9,7 +9,7 @@ def AI(b_r,b_l,b_u,b_d,b_state):
 	data1=[]
 	a=0
 	#csvデータ読み込み
-	with open("gakusyudata1.csv","r") as f:
+	with open("syukei.csv","r") as f:
 		reader=csv.reader(f)
 		for row in reader:
 			data1.append(row)
