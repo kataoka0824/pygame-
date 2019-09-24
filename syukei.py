@@ -98,7 +98,7 @@ d_u_1101=0
 #1110
 u_d_1110=0
 #csvファイルの読み込み
-with open("gamedata1.csv","r") as f:
+with open("data.csv","r") as f:
 	reader = csv.reader(f)
 	for row in reader:
 		data.append(row)
@@ -406,6 +406,6 @@ a.append([d_u_1101])
 #1110
 a.append([u_d_1110])
 #csvファイルへの書き出し
-with open("gakusyudata1.csv","w") as f_w:
+with open("syukei.csv","w") as f_w:
 	writer=csv.writer(f_w,lineterminator="\n")
 	writer.writerows(a)
